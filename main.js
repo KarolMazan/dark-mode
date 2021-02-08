@@ -1,8 +1,8 @@
-let isDark = false
+let isDark = false;
 
-const switchMode = document.querySelector('.mode--js')
+const switchMode = document.querySelector('.mode--js');
 
-switchModes = addEventListener('click', () => {
+switchMode.addEventListener('click', () => {
     if (isDark) {
         document.documentElement.style.setProperty('--background-color', 'rgb(241, 236, 236)')
         document.documentElement.style.setProperty('--text-color', 'rgb(14, 13, 13)')
